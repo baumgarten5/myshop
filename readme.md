@@ -38,3 +38,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Installation
+
+git clone https://github.com/baumgarten5/myshop.git
+cd laravel
+composer install
+Создать БД с именем myshop
+Создать .env по примеру envexample и подключить к нему базу
+php artisan migrate
