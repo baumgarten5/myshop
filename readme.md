@@ -41,9 +41,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Installation
 
-git clone https://github.com/baumgarten5/myshop.git
-cd laravel
-composer install
-Создать БД с именем myshop
-Создать .env по примеру envexample и подключить к нему базу
-php artisan migrate
+- git clone https://github.com/baumgarten5/myshop.git
+
+- cd laravel
+
+- composer install
+
+- Создать БД с именем myshop
+
+- Создать .env по примеру envexample и подключить к нему базу
+
+- php artisan migrate
