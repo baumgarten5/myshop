@@ -8,10 +8,17 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                   @foreach($cats as $one)
+                    <div>
+                    <input type='checkbox' name='check' class='check'/>
+                        {{$one->name}}
+                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
+
+

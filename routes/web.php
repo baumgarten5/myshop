@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'BaseController@getIndex');
+Route::get('catalog/{id}', 'ProductController@getCatalog');
+Route::get('product/{id}', 'ProductController@getProduct');
+
 
 Auth::routes();
 
